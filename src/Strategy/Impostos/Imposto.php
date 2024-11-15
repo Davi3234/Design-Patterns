@@ -1,5 +1,5 @@
 <?php
-namespace App\DesignPattern\Impostos;
+namespace App\DesignPattern\Strategy\Impostos;
 
 use App\DesignPattern\Orcamento;
 

@@ -1,5 +1,5 @@
 <?php
-namespace App\DesignPattern\Descontos;
+namespace App\DesignPattern\ChainResponsability\Descontos;
 
 use App\DesignPattern\Orcamento;
 

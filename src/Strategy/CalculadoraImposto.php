@@ -1,8 +1,9 @@
 <?php
 //Design Pattern Strategy
-namespace App\DesignPattern;
+namespace App\DesignPattern\Strategy;
 
-use App\DesignPattern\Impostos\Imposto;
+use App\DesignPattern\Orcamento;
+use App\DesignPattern\Strategy\Impostos\Imposto;
 
 class CalculadoraImposto{
   

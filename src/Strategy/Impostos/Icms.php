@@ -1,7 +1,8 @@
 <?php
-namespace App\DesignPattern\Impostos;
+namespace App\DesignPattern\Strategy\Impostos;
 
 use App\DesignPattern\Orcamento;
+use App\DesignPattern\Strategy\Impostos\Imposto;
 
 class Icms implements Imposto{
   public function calculaImposto(Orcamento $orcamento): float{
