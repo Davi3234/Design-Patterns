@@ -27,6 +27,10 @@ $tests = [
     'title' => 'Testes de Observer',
     'directory' => 'src/Observer/test.php'
   ],
+  [
+    'title' => 'Testes de Iterator',
+    'directory' => 'src/Iterator/test.php'
+  ],
 ];
 
 foreach($tests as $test){
