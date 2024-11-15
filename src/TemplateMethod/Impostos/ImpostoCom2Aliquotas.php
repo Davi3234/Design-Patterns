@@ -2,6 +2,7 @@
 namespace App\DesignPattern\TemplateMethod\Impostos;
 
 use App\DesignPattern\Orcamento;
+use App\DesignPattern\Strategy\Impostos\Imposto;
 
 abstract class ImpostoCom2Aliquotas implements Imposto {
   public function calculaImposto(Orcamento $orcamento): float{

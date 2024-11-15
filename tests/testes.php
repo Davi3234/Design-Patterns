@@ -19,6 +19,14 @@ $tests = [
     'title' => 'Testes de State',
     'directory' => 'src/State/test.php'
   ],
+  [
+    'title' => 'Testes de Command',
+    'directory' => 'src/Command/test.php'
+  ],
+  [
+    'title' => 'Testes de Observer',
+    'directory' => 'src/Observer/test.php'
+  ],
 ];
 
 foreach($tests as $test){

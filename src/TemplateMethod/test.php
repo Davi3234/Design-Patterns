@@ -1,7 +1,7 @@
 <?php
 
 use App\DesignPattern\Orcamento;
-use App\DesignPattern\TemplateMethod\CalculadoraImposto;
+use App\DesignPattern\Strategy\CalculadoraImposto;
 use App\DesignPattern\TemplateMethod\Impostos\Icpp;
 
 $calculadora = new CalculadoraImposto();
